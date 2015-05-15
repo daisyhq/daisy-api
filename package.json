@@ -1,0 +1,27 @@
+{
+  "name": "daisy-api",
+  "version": "0.0.1",
+  "description": "The Daisy API",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "2.7.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daisyhq/daisy-api.git"
+  },
+  "author": "Shawn Price",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daisyhq/daisy-api/issues"
+  },
+  "homepage": "https://github.com/daisyhq/daisy-api",
+  "dependencies": {
+    "hapi": "^8.4.0"
+  }
+}
