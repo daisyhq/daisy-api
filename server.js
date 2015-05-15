@@ -10,7 +10,7 @@ server.route({
   method: 'GET',
   path: '/',
   handler: function (request, reply) {
-    var msg = {msg: "Hello World!"};
+    var msg = {msg: "For peace of mind."};
     reply(msg);
   }
 });
